@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+canvas {
+    border: 1px solid #000;
+    cursor: crosshair;
+}
+
+.color-picker {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#togglePalette {
+    margin-bottom: 10px;
+}
+
+.palette.hidden {
+    display: none;
+}
+
+#palette input {
+    margin: 5px;
+}
+
+#colorDisplay {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}

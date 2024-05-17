@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Desenho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="drawingCanvas"></canvas>
+        <div class="color-picker">
+            <button id="togglePalette">Mostrar Paleta de Cores</button>
+            <div id="palette" class="palette hidden">
+                <input type="range" id="red" min="0" max="255" value="0">
+                <label for="red">R</label>
+                <input type="range" id="green" min="0" max="255" value="0">
+                <label for="green">G</label>
+                <input type="range" id="blue" min="0" max="255" value="0">
+                <label for="blue">B</label>
+                <div id="colorDisplay"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
